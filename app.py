@@ -7,7 +7,8 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-BASE = "Student_Performance_Website"
+
+BASE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(BASE, "assets")
 GRAPH_DIR = os.path.join(ASSETS, "graphs")
 
